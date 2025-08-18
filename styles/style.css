@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  background: linear-gradient(to right, blue, red);
+  background: linear-gradient(to right, rgb(86, 5, 110), rgb(179, 56, 216));
 }
 
 main {
-  width: 60%;
+  /* width: 60%; */
   margin: auto;
 }
 
 .navbar {
-  background: linear-gradient(to right, blue, red);
+  background: linear-gradient(to right, rgb(107, 7, 138), rgba(157, 9, 187, 0.74));
   /* background-color: #333; */
   color: white;
   padding: 10px;
@@ -88,7 +88,7 @@ nav ul li a:hover {
 
 .image-bg {
   background-color: transparent;
-  color: red;
+  color: rgb(153, 12, 146);
   padding: 20px;
   box-sizing: border-box;
   width: 260px;
@@ -103,6 +103,7 @@ nav ul li a:hover {
   width: 260px;
   height: 260px;
   transform: rotate(72deg);
+  margin-right: 50px;
 }
 
 .header-rightside img {
@@ -128,4 +129,25 @@ nav ul li a:hover {
 
 .header-leftside ul li a i {
   font-size: 20px;
+}
+h1{
+  color: white;
+  margin-left: 80px;
+}
+
+#about {
+  padding: 60px 10%;
+  background: linear-gradient(to right, rgb(80, 7, 102), rgba(157, 9, 187, 0.74));  
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(165, 159, 159, 0.1);
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
 }
