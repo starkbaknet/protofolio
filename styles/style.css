@@ -136,7 +136,8 @@ nav ul li a:hover {
   color: white;
   font-size: 30px;
   border-bottom: 5px solid steelblue;
-  width: 100px;
+  width: 15%;
+  padding-bottom: 5px;
   margin: auto;
 }
 
@@ -173,4 +174,69 @@ nav ul li a:hover {
 .skill-box img {
   width: 60px;
   height: 60px;
+}
+
+.experience-box {
+  background-color: rgb(11, 7, 114);
+  display: flex;
+  align-items: top;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.experience-box:hover {
+  border: 2px solid rgb(74, 69, 225);
+}
+
+.experience-left-section {
+  width: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.experience-left-section img {
+  width: 70%;
+  height: auto;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+.experience-wright-section {
+  width: 80%;
+}
+
+.experience-wright-section h1 {
+  font-size: 25px;
+  margin-top: 35px;
+  line-height: 2px;
+  color: bisque;
+}
+
+.experience-wright-section h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 2px;
+  color: white;
+}
+
+.experience-wright-section p {
+  font-size: 15px;
+  margin-top: 25px;
+  line-height: 2px;
+  color: blanchedalmond;
+}
+
+.experience-wright-section ul {
+  padding: 14px;
+  margin-top: -15px;
+}
+
+.experience-wright-section ul li {
+  color: lightgray;
+}
+
+.experience-wright-section ul li::marker {
+  color: black;
 }
