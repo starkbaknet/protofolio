@@ -1,19 +1,21 @@
 body {
   margin: 0;
+  background: linear-gradient(to right, blue, red);
 }
 
 main {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
 .navbar {
-  background-color: #333;
+  background: linear-gradient(to right, blue, red);
+  /* background-color: #333; */
   color: white;
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: sticky;
   top: 0;
   left: 0;
@@ -73,4 +75,57 @@ nav ul li a:hover {
   nav ul li {
     margin: 0;
   }
+}
+
+/* header styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-bg {
+  background-color: transparent;
+  color: red;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 260px;
+  height: 260px;
+  transform: rotate(-72deg);
+}
+
+.image-bg-parent {
+  background: url("https://avatars.githubusercontent.com/u/183338040?v=4");
+  padding: 20px;
+  box-sizing: border-box;
+  width: 260px;
+  height: 260px;
+  transform: rotate(72deg);
+}
+
+.header-rightside img {
+  border-radius: 50%;
+  transform: translateY(-260px) rotate(-72deg);
+}
+
+.header-leftside ul {
+  padding: 0;
+  display: flex;
+  margin-top: 60px;
+}
+
+.header-leftside ul li {
+  list-style: none;
+  margin-right: 5px;
+}
+
+.header-leftside ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-leftside ul li a i {
+  font-size: 20px;
 }
