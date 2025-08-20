@@ -9,7 +9,7 @@ main {
 }
 
 .navbar {
-  background: linear-gradient(to right, rgb(107, 7, 138), rgba(157, 9, 187, 0.74));
+  background: linear-gradient(to right, rgb(115, 10, 129), rgba(157, 9, 187, 0.74));
   /* background-color: #333; */
   color: white;
   padding: 10px;
@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(119, 180, 180);
+  color: rgb(179, 91, 8);
 }
 
 @media (max-width: 768px) {
@@ -150,4 +150,17 @@ h1{
   line-height: 1.6;
   margin-bottom: 15px;
   text-align: justify;
+}
+
+.sub-title {
+  color: #ff7b00;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  margin-left: 78px;
+}
+.highlight {
+  color: #ff7b00;
+  font-weight: bold;
 }
