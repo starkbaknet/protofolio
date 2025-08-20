@@ -4,12 +4,16 @@ body {
 }
 
 main {
-  /* width: 60%; */
+  width: 60%;
   margin: auto;
 }
 
 .navbar {
-  background: linear-gradient(to right, rgb(115, 10, 129), rgba(157, 9, 187, 0.74));
+  background: linear-gradient(
+    to right,
+    rgb(115, 10, 129),
+    rgba(157, 9, 187, 0.74)
+  );
   /* background-color: #333; */
   color: white;
   padding: 10px;
@@ -130,14 +134,18 @@ nav ul li a:hover {
 .header-leftside ul li a i {
   font-size: 20px;
 }
-h1{
+h1 {
   color: white;
   margin-left: 80px;
 }
 
 #about {
   padding: 60px 10%;
-  background: linear-gradient(to right, rgb(80, 7, 102), rgba(157, 9, 187, 0.74));  
+  background: linear-gradient(
+    to right,
+    rgb(80, 7, 102),
+    rgba(157, 9, 187, 0.74)
+  );
   color: white;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(165, 159, 159, 0.1);
